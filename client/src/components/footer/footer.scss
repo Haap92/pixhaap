@@ -1,0 +1,107 @@
+@import "../../app.scss";
+
+.footRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: 'center';
+    background: '#B76369';
+    position: 'absolute';
+    bottom: '0';
+    width: '100%';
+
+    .footColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .footSocialRow {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: '#B76369';
+            margin-left: 50px;
+
+            .logoGH {
+                display: flex;
+                width: auto;
+                height: 65px;
+                padding: 15;
+            }
+            .logoLI {
+                display: flex;
+                width: auto;
+                height: 90px;
+                padding: 12;
+            }
+        }
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 65px;
+        margin-top: 15px;
+
+        .logo {
+            display: flex;
+            width: auto;
+            height: 100px;
+            padding: 15;
+        }
+    }
+    .footSearch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 70px 0 0;
+
+        .footSearching {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 100%;
+            color: #E6E8E5;
+            font-weight: bold;
+            .searchRow {
+                display: flex;
+                flex-direction: row;
+
+                .formSearching {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            button.go {
+                display: flex;
+                font-weight: bold;
+                background: #932D30;
+                width: 100%;
+                height: 100%;
+                border-radius: 50px;
+                padding: 10;
+                color: #E6E8E5;
+                cursor: pointer;
+            }
+        }
+ 
+    }
+
+
+    .legal {
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #E6E8E5;
+        margin-top: 35px;
+    }
+
+}
