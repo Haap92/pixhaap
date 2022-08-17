@@ -4,9 +4,6 @@
 
 ###### An approach to what would be a streaming app/platform fed from a database. Client + API resources.
 
-[![Pixhaap Streaming Gif](GIF)](https://github.com/Haap92/pixhaap)
-
-
 ---
 
 ### Technologies & Languages:
